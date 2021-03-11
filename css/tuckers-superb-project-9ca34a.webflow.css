@@ -261,6 +261,12 @@ a {
     text-align: left;
   }
 
+  .body {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 46, 92, 0.78)), to(rgba(53, 46, 92, 0.78))), url('../images/Holo-6-1.jpg');
+    background-image: linear-gradient(180deg, rgba(53, 46, 92, 0.78), rgba(53, 46, 92, 0.78)), url('../images/Holo-6-1.jpg');
+    background-size: auto, 1920px;
+  }
+
   .heading-2 {
     width: 300px;
     font-size: 45px;
